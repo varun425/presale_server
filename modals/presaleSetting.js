@@ -5,12 +5,12 @@ const presaleSchema = new Schema({
     investStatus: {
         type: Boolean,
         default: false,
-        require:true
+        require: true
     },
     claimStatus: {
         type: Boolean,
         default: false,
-        require:true
+        require: true
     },
     investStartsIn: {
         type: Date, // epoch seconds 

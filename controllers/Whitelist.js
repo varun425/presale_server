@@ -185,7 +185,7 @@ const Whitelist = async (req, res) => {
                 });
             }
             // Access the uploaded CSV file data from the 'files' object
-            console.log(files);
+            // console.log(files);
             const csvFile = files.csvFile[0];
             if (!csvFile) {
                 return ({
